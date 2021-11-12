@@ -105,7 +105,7 @@ https://moviesrecommender1.herokuapp.com/
 ![Api key 3](https://user-images.githubusercontent.com/93968656/141447807-b4e90348-695a-4fba-98a6-e710229ad902.png)
 
 
-## How to run the project?
+## How to run the project on local system?
 
    ##### 1. Clone this repository in your local system.
    ##### 2. Uncompressed the simmilarity.7z file
