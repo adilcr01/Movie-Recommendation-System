@@ -103,21 +103,6 @@ https://www.themoviedb.org/signup
 ![Api key 3](https://user-images.githubusercontent.com/93968656/141447807-b4e90348-695a-4fba-98a6-e710229ad902.png)
 
 
-
-Insert the API key and the Movie_id from tmdb_5000_movies.csv in the below url
-to fetch the poster of the movie
-
-https://api.themoviedb.org/3/movie/{movie_id}?api_key=<<api_key>>&language=en-US
-
-It will open a json file, Copy the url in "Poster_path"
-
-## How to get Movie Poster image
-
-
-https://image.tmdb.org/t/p/w500<<Poster_path>>
-
-
-
 ## How to run the project?
 
    ##### 1. Clone this repository in your local system.
