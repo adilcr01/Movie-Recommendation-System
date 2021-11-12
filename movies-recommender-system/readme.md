@@ -84,6 +84,8 @@ Cosine similarity is a metric used to measure how similar the documents are irre
 Check out the live demo: 
 https://moviesrecommender1.herokuapp.com/
 
+#### Loading of app might take some time as the Webframework used is Streamlit
+
 
 ## How to get a API key
 
