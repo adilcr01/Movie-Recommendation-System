@@ -90,10 +90,17 @@ https://moviesrecommender1.herokuapp.com/
 ## How to get a API key
 
 
-First create an account on tmdb website
+1. First create an account on tmdb website
 
 https://www.themoviedb.org/signup
 
+2. Now go to Setting
+
+3. Go to API
+
+4. Go to API Key
+
+![Api key 3](https://user-images.githubusercontent.com/93968656/141447807-b4e90348-695a-4fba-98a6-e710229ad902.png)
 
 
 
