@@ -71,12 +71,10 @@ Cosine similarity is a metric used to measure how similar the documents are irre
 
 ## Tech Stacks
 
-Python
-Steamlit
-
-Machine Learning Library In Python3
-
-Numpy , Pandas , Scipy
+##### Programming Language : Python
+##### WebFramework : Steamlit
+##### API : TMDB
+##### Machine Learning Libraries: Numpy, Pandas, Sklearn
 
 
 
