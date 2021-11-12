@@ -58,26 +58,6 @@ Cosine similarity is a metric used to measure how similar the documents are irre
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Dataset used
 
 
@@ -88,13 +68,15 @@ https://www.kaggle.com/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv
 ## Screenshot
 
 #### home page
+![movie recommender 1](https://user-images.githubusercontent.com/93968656/141446551-d7d77119-aa59-4146-a157-44fb7f244535.png)
 
 
-
-
-
+![movie recommender 2](https://user-images.githubusercontent.com/93968656/141446592-2de5f670-e03c-43bc-8521-0ace164d0ba0.png)
 
 #### Recomendation page
+![movie recommender 3](https://user-images.githubusercontent.com/93968656/141446656-0728ea6e-2d5e-4fbf-8330-d9e5280ce6c8.png)
+
+
 ## Tech Stacks
 
 Python
