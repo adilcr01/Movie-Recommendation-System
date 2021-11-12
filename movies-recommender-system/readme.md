@@ -8,14 +8,14 @@ social tags, and products in general.
 Recommender systems produce a list of recommendations in any of the two ways – 
  
 
-Collaborative filtering: 
+#### Collaborative filtering: 
 
     Collaborative filtering approaches build a model from the user’s past behavior
     (i.e. items purchased or searched by the user) as well as similar decisions 
     made by other users. This model is then used to predict items (or ratings for
     items) that users may have an interest in.
 
-Content-based filtering:
+#### Content-based filtering:
 
     Content-based filtering approaches uses a series of discrete characteristics 
     of an item in order to recommend additional items with similar properties. 
@@ -57,14 +57,6 @@ Cosine similarity is a metric used to measure how similar the documents are irre
 ![image](https://user-images.githubusercontent.com/93968656/141446290-432b187c-93f7-4bcd-978f-272c921893d0.png)
 
 
-
-## Dataset used
-
-
-Dataset used
-
-IMDB Dataset 
-https://www.kaggle.com/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv
 ## Screenshot
 
 #### home page
@@ -87,16 +79,6 @@ Machine Learning Library In Python3
 Numpy , Pandas , Scipy
 
 
-
-## How to run the project?
-
-   ##### 1. Clone this repository in your local system.
-   ##### 2. Uncompressed the simmilarity.7z file
-   ##### 3. Open your IDE from your project directory and Install all the libraries mentioned in the requirements.txt file with the command pip install -r requirements.txt.
-   ##### 4. Replace YOUR_API_KEY in (line no. 6) of app.py file.
-   ##### 5. Run the app.py file by clicking the run button.
-   ##### 6. Go to your browser and type http://127.0.0.1:5000/ in the address bar.
-   ##### Hurray! That's it.
 
 
 ## Link to the application 
@@ -126,3 +108,21 @@ It will open a json file, Copy the url in "Poster_path"
 
 
 https://image.tmdb.org/t/p/w500<<Poster_path>>
+
+
+
+## How to run the project?
+
+   ##### 1. Clone this repository in your local system.
+   ##### 2. Uncompressed the simmilarity.7z file
+   ##### 3. Open your IDE from your project directory and Install all the libraries mentioned in the requirements.txt file with the command pip install -r requirements.txt.
+   ##### 4. Replace YOUR_API_KEY in (line no. 6) of app.py file.
+   ##### 5. Run the app.py file by clicking the run button.
+   ##### 6. Go to your browser and type http://127.0.0.1:5000/ in the address bar.
+   ##### Hurray! That's it.
+
+
+## Dataset used
+
+IMDB Dataset 
+https://www.kaggle.com/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv
