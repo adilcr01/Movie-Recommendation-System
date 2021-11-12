@@ -1,0 +1,139 @@
+
+# Movie Recommendation using Machine learning
+
+Recommender System is a system that seeks to predict or filter preferences
+according to the user’s choices. Recommender systems are utilized in a variety
+of areas including movies, music, news, books, research articles, search queries,
+social tags, and products in general. 
+Recommender systems produce a list of recommendations in any of the two ways – 
+ 
+
+Collaborative filtering: 
+
+    Collaborative filtering approaches build a model from the user’s past behavior
+    (i.e. items purchased or searched by the user) as well as similar decisions 
+    made by other users. This model is then used to predict items (or ratings for
+    items) that users may have an interest in.
+
+Content-based filtering:
+
+    Content-based filtering approaches uses a series of discrete characteristics 
+    of an item in order to recommend additional items with similar properties. 
+    Content-based filtering methods are totally based on a description of the 
+    item and a profile of the user’s preferences. It recommends items based on 
+    the user’s past preferences.
+
+
+
+
+In this project we are using a Content-based filtering approach.
+This type of recommendation systems, takes in a movie that a user currently likes 
+as input. Then it analyzes the contents (storyline, genre, cast, director etc.) 
+of the movie to find out other movies which have similar content. Then it ranks 
+similar movies according to their similarity scores and recommends the most 
+relevant movies to the user.
+
+
+
+#### CountVectorizer:
+
+The CountVectorizer provides a simple way to both tokenize a collection of text
+documents and build a vocabulary of known words, but also to encode new documents 
+using that vocabulary.
+
+
+#### Cosine Similarity:
+
+Cosine similarity is a measure of similarity between two non-zero vectors of an 
+inner product space that measures the cosine of the angle between them. The cosine 
+of 0° is 1, and it is less than 1 for any angle in the interval (0, π] radians
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Dataset used
+
+
+Dataset used
+
+IMDB Dataset 
+https://www.kaggle.com/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv
+## Screenshot
+
+#### home page
+
+
+
+
+
+
+#### Recomendation page
+## Tech Stacks
+
+Python
+Steamlit
+
+Machine Learning Library In Python3
+
+Numpy , Pandas , Scipy
+
+
+
+## How to run the project?
+
+   ##### 1. Clone this repository in your local system.
+   ##### 2. Uncompressed the simmilarity.7z file
+   ##### 3. Open your IDE from your project directory and Install all the libraries mentioned in the requirements.txt file with the command pip install -r requirements.txt.
+   ##### 4. Replace YOUR_API_KEY in (line no. 6) of app.py file.
+   ##### 5. Run the app.py file by clicking the run button.
+   ##### 6. Go to your browser and type http://127.0.0.1:5000/ in the address bar.
+   ##### Hurray! That's it.
+
+
+## Link to the application 
+
+Check out the live demo: 
+https://moviesrecommender1.herokuapp.com/
+
+
+## How to get a API key
+
+
+First create an account on tmdb website
+
+https://www.themoviedb.org/signup
+
+
+
+
+Insert the API key and the Movie_id from tmdb_5000_movies.csv in the below url
+to fetch the poster of the movie
+
+https://api.themoviedb.org/3/movie/{movie_id}?api_key=<<api_key>>&language=en-US
+
+It will open a json file, Copy the url in "Poster_path"
+
+## How to get Movie Poster image
+
+
+https://image.tmdb.org/t/p/w500<<Poster_path>>
