@@ -48,6 +48,13 @@ Cosine similarity is a measure of similarity between two non-zero vectors of an
 inner product space that measures the cosine of the angle between them. The cosine 
 of 0° is 1, and it is less than 1 for any angle in the interval (0, π] radians
 
+#### How Cosine Similarity works?
+
+Cosine similarity is a metric used to measure how similar the documents are irrespective of their size. Mathematically, it measures the cosine of the angle between two vectors projected in a multi-dimensional space. The cosine similarity is advantageous because even if the two similar documents are far apart by the Euclidean distance (due to the size of the document), chances are they may still be oriented closer together. The smaller the angle, higher the cosine similarity.
+
+
+
+![image](https://user-images.githubusercontent.com/93968656/141446290-432b187c-93f7-4bcd-978f-272c921893d0.png)
 
 
 
