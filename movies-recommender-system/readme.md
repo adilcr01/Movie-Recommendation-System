@@ -77,7 +77,7 @@ Cosine similarity is a metric used to measure how similar the documents are irre
 ##### Machine Learning Libraries: Numpy, Pandas, Sklearn
 
 ## Deployement on Heroku
-##### Login or signup in order to create virtual app. You can either connect your github profile or download ctl to manually to deploy this project.
+##### Login or signup in order to create virtual app. You can either connect your github profile or download Heroku cli to manually deploy this project.
 ![image](https://user-images.githubusercontent.com/93968656/141473709-159ff490-856e-4cab-95b0-504d52b8eaea.png)
 
 ##### The next step would be to follow the instruction given in the Heroku Documentation to deploy a web app.
