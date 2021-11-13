@@ -75,6 +75,7 @@ Cosine similarity is a metric used to measure how similar the documents are irre
 ##### WebFramework : Steamlit
 ##### API : TMDB
 ##### Machine Learning Libraries: Numpy, Pandas, Sklearn
+##### NLP library: NLTK, CountVectorizer
 
 ## Deployement on Heroku
 ##### Login or signup in order to create virtual app. You can either connect your github profile or download Heroku cli to manually deploy this project.
