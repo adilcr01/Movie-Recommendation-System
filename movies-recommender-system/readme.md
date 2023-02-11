@@ -77,17 +77,18 @@ Cosine similarity is a metric used to measure how similar the documents are irre
 ##### Machine Learning Libraries: Numpy, Pandas, Sklearn
 ##### NLP library: NLTK, CountVectorizer
 
-## Deployement on Heroku
-##### Login or signup in order to create virtual app. You can either connect your github profile or download Heroku cli to manually deploy this project.
-![image](https://user-images.githubusercontent.com/93968656/141473709-159ff490-856e-4cab-95b0-504d52b8eaea.png)
+## Deployement on Amazon AWS.
+##### Login or signup in order to create virtual app. You can either connect your github profile to clone it or download any cli to manually deploy this project from local.
+![image](https://user-images.githubusercontent.com/93968656/218243092-d41ac4da-32bc-4dba-b065-8c301ab6ec85.png)
 
-##### The next step would be to follow the instruction given in the Heroku Documentation to deploy a web app.
+
+##### The next step would be to follow the instruction given in the AWS Documentation to deploy a web app.
 
 
 ## Link to the application 
 
 Check out the live demo: 
-https://moviesrecommender1.herokuapp.com/
+http://44.204.103.233:8501/
 
 #### Loading of app might take some time as the Webframework used is Streamlit
 
