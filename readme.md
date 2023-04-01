@@ -87,7 +87,7 @@ Cosine similarity is a metric used to measure how similar the documents are irre
 
 ## Link to the application 
 
-Check out the live demo: [Link]()
+Check out the live demo: [Link]
 
 #### Loading of app might take some time as the Webframework used is Streamlit
 
